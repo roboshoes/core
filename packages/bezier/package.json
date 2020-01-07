@@ -1,20 +1,23 @@
 {
   "name": "@roboshoes/bezier",
-  "version": "0.1.1",
+  "version": "0.0.0",
   "description": "Canvas context bezier curve with multiple anchors. Uses repeated quadrativeCurveTo.",
-  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Mathias Paumgarten",
+  "license": "MIT",
   "scripts": {
     "prepublish": "tsc",
     "postpublish": "rm index.js index.d.ts"
   },
+  "main": "index.js",
   "keywords": [
     "curve",
     "bezier",
     "canvas",
     "context"
   ],
-  "author": "Mathias Paumgarten",
-  "license": "MIT",
   "devDependencies": {
     "typescript": "^3.7.4"
   }
