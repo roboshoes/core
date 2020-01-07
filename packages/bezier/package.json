@@ -1,6 +1,6 @@
 {
   "name": "@roboshoes/bezier",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Canvas context bezier curve with multiple anchors. Uses repeated quadrativeCurveTo.",
   "publishConfig": {
     "access": "public"
