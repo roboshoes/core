@@ -1,0 +1,36 @@
+{
+  "name": "@roboshoes/router",
+  "version": "0.0.0",
+  "description": "A simple routing system based on rxjs events. Unrelated to Dom.",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "tsc",
+    "postpublish": "rm index.js index.d.ts"
+  },
+  "keywords": [
+    "routing",
+    "router",
+    "route-event"
+  ],
+  "author": "Mathias Paumgarten",
+  "license": "MIT",
+  "dependencies": {
+    "rxjs": "^6.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roboshoes/core.git",
+    "directory": "packages/router"
+  },
+  "devDependencies": {
+    "@roboshoes/eslint-config": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.15.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^2.15.0",
+    "eslint": "^6.8.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  }
+}
