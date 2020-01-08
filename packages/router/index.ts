@@ -28,7 +28,7 @@ export function onRouteChange(): Observable<[string, string]> {
 export function observeRoute( value: RegExp ): Observable<boolean> {
     return onRouteChange().pipe(
         filter( ( [ previous, current ] ) =>  !!( value.test( current ) || value.test( previous ) ) ),
-        map( ( [ _, current ] ) => value.test( current ) ),
+        map( ( [ , current ] ) => value.test( current ) ),
     );
 }
 
