@@ -1,6 +1,6 @@
 {
   "name": "@roboshoes/router",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "description": "A simple routing system based on rxjs events. Unrelated to Dom.",
   "publishConfig": {
     "access": "public"
