@@ -1,7 +1,7 @@
 {
-  "name": "@roboshoes/router",
+  "name": "@roboshoes/shader-pass",
   "version": "0.3.0",
-  "description": "A simple routing system based on rxjs events. Unrelated to Dom.",
+  "description": "A shader-pass tool base on Three.",
   "publishConfig": {
     "access": "public"
   },
@@ -11,19 +11,19 @@
     "postpublish": "rm index.js index.d.ts"
   },
   "keywords": [
-    "routing",
-    "router",
-    "route-event"
+    "shaderpass",
+    "gpgpu",
+    "glsl"
   ],
   "author": "Mathias Paumgarten",
   "license": "MIT",
-  "dependencies": {
-    "rxjs": "^6.5.4"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/roboshoes/core.git",
-    "directory": "packages/router"
+    "directory": "packages/shader-pass"
+  },
+  "peerDependencies": {
+    "three": "^0.115.0"
   },
   "devDependencies": {
     "@roboshoes/eslint-config": "^1.0.0",
