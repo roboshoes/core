@@ -1,6 +1,6 @@
 {
   "name": "@roboshoes/shader-pass",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A shader-pass tool base on Three.",
   "publishConfig": {
     "access": "public"
@@ -30,7 +30,9 @@
     "@typescript-eslint/eslint-plugin": "^2.15.0",
     "@typescript-eslint/eslint-plugin-tslint": "^2.15.0",
     "eslint": "^6.8.0",
+    "three": "^0.115.0",
     "tslint": "^5.20.1",
     "typescript": "^3.7.4"
-  }
+  },
+  "gitHead": "7a0abddc26ffc890a4741864210bc87959f0282b"
 }
